@@ -3,7 +3,7 @@
 # Installion
 ### Open a terminal or cmd (Depending on you're operating system)
 ### Type: ```git clone https://github.com/Discord-py-Projects/Discord.py-Moderation-Bot.git```
-### Type if you're on mac/linux: pip3 install -r requirements.txt Type if you're on windows: pip install requirements.txt
+### Type if you're on mac/linux: ```pip3 install -r requirements.txt``` Type if you're on windows: ```pip install requirements.txt```
 ### Last open bot.py and replace the variable TOKEN with you're bot token and PREFIX with you're bot prefix
 ### Bam! You have a discord moderation bot, type in: {prefix}help to see commmands
 
