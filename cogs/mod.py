@@ -20,7 +20,7 @@ class Mod(commands.Cog):
 	@commands.cooldown(1, 5, commands.BucketType.guild)
 	async def purge(self, ctx, amount=6):
 		await ctx.channel.purge(limit=amount)
-		embed = discord.Embed(title=f"{amount} messages has been purged!", colour=discord.Colour.blue(), timestamp=datetime.datetime.utcnow())
+		embed = discord.Embed(title=f"{amount} messages have been purged!", colour=discord.Colour.blue(), timestamp=datetime.datetime.utcnow())
 		await ctx.reply(embed=embed)
 
 	@commands.command()
