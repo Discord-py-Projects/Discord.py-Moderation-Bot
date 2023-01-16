@@ -2,8 +2,8 @@ import discord
 import os
 from discord.ext import commands
 
-TOKEN = "You're bot token"
-PREFIX = "You're bot prefix"
+TOKEN = "Your bot token"
+PREFIX = "Your bot prefix"
 
 bot = commands.AutoShardedBot(command_prefix=PREFIX)
 bot.remove_command('help')
